@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">back</string>
+    <string name="user_details">User Details</string>
+    <string name="followers">Followers</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="blog">Blog</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="location">Location</string>
+</resources>
