@@ -22,7 +22,7 @@ include ':core:network'
 include ':core:testing'
 include ':core:usecase'
 // Common
-include ':common:domain'
+include ':common:usecase'
 include ':common:model'
 include ':common:local'
 include ':common:remote'

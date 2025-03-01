@@ -9,7 +9,7 @@ import retrofit2.http.Query
 
 interface GithubService {
 
-    @GET("users?per_page=20&since=100")
+    @GET("users")
     suspend fun getUsers(@Query("per_page") perPage: Int, @Query("since") since: Int): List<UserResponse?>?
 
     @GET("users/{username}")

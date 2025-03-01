@@ -137,7 +137,7 @@ fun DependencyHandler.addCoreModule() {
 }
 
 fun DependencyHandler.addCommonModule() {
-    COMMON_DOMAIN
+    COMMON_USECASE
     COMMON_LOCAL
     COMMON_MODEL
     COMMON_REMOTE
@@ -168,8 +168,8 @@ val DependencyHandler.CORE_TEST
 // Common
 val DependencyHandler.COMMON_MODEL
     get() = implementation(project(mapOf("path" to ":common:model")))
-val DependencyHandler.COMMON_DOMAIN
-    get() = implementation(project(mapOf("path" to ":common:domain")))
+val DependencyHandler.COMMON_USECASE
+    get() = implementation(project(mapOf("path" to ":common:usecase")))
 val DependencyHandler.COMMON_REMOTE
     get() = implementation(project(mapOf("path" to ":common:remote")))
 val DependencyHandler.COMMON_LOCAL

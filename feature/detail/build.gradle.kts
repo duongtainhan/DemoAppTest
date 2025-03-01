@@ -1,4 +1,4 @@
-import extensions.COMMON_DOMAIN
+import extensions.COMMON_USECASE
 import extensions.COMMON_MODEL
 import extensions.COMMON_RESOURCE
 import extensions.CORE_EXTENSION
@@ -23,7 +23,7 @@ android {
 dependencies {
     CORE_STRUCTURE
     addCommonDependencies()
-    COMMON_DOMAIN
+    COMMON_USECASE
     CORE_USECASE
     COMMON_MODEL
     COMMON_RESOURCE

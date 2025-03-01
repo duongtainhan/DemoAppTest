@@ -12,6 +12,8 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+const val DATABASE_NAME = "DATABASE_NAME"
+
 @Module
 @InstallIn(SingletonComponent::class)
 class LocalModule {
@@ -19,7 +21,7 @@ class LocalModule {
     @Provides
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): AppDatabase {
-        return Room.databaseBuilder(context, AppDatabase::class.java, "DATABASE_NAME")
+        return Room.databaseBuilder(context, AppDatabase::class.java, DATABASE_NAME)
             .fallbackToDestructiveMigration()
             .build()
     }

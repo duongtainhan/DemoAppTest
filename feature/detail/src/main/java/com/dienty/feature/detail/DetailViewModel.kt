@@ -1,7 +1,7 @@
 package com.dienty.feature.detail
 
 import androidx.lifecycle.viewModelScope
-import com.dienty.common.domain.usecase.GetDetailUseCase
+import com.dienty.common.usecase.usecase.GetDetailUseCase
 import com.dienty.common.model.entity.DetailEntity
 import com.dienty.core.network.model.BaseResult
 import com.dienty.core.structure.base.BaseViewModel

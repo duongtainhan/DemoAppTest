@@ -1,6 +1,6 @@
 package com.dienty.feature.home
 
-import com.dienty.common.domain.usecase.GetUsersUseCase
+import com.dienty.common.usecase.usecase.GetUsersUseCase
 import com.dienty.core.structure.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

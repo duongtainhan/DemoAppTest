@@ -12,12 +12,12 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/common" />
-            <option value="$PROJECT_DIR$/common/domain" />
             <option value="$PROJECT_DIR$/common/local" />
             <option value="$PROJECT_DIR$/common/model" />
             <option value="$PROJECT_DIR$/common/remote" />
             <option value="$PROJECT_DIR$/common/repository" />
             <option value="$PROJECT_DIR$/common/resource" />
+            <option value="$PROJECT_DIR$/common/usecase" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/extension" />
             <option value="$PROJECT_DIR$/core/local" />

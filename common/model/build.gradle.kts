@@ -1,4 +1,5 @@
 import extensions.CORE_EXTENSION
+import extensions.CORE_TEST
 import extensions.implementation
 import extensions.ksp
 
@@ -15,4 +16,5 @@ dependencies {
     implementation(NetworkLib.MoshiLazyAdapter)
     implementation(StorageLib.RoomKtx)
     ksp(StorageLib.RoomCompiler)
+    CORE_TEST
 }

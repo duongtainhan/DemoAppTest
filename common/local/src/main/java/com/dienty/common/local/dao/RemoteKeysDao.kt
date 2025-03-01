@@ -12,6 +12,9 @@ interface RemoteKeysDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(remoteKey: List<RemoteKeys>)
 
+    @Query("Select * From remote_key")
+    fun getRemoteKeys(): List<RemoteKeys>
+
     @Query("Select * From remote_key Where username = :username")
     suspend fun getRemoteKeyByUsername(username: String): RemoteKeys?
 
